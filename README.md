@@ -1,1 +1,1 @@
-# Assignments-2
+Uploaded Class Assignments with their output in png file
