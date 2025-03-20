@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Macondo&family=Playwrite+IN:wght@100..400&family=Sixtyfour+Convergence&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Macondo&family=Playwrite+IN:wght@100..400&family=Sixtyfour+Convergence&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #f35431;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-size: 29px;
+            font-weight: bold;
+            color: white;
+            font-style: italic;
+            font-family: "Macondo", cursive;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin: 0 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 19px;
+        }
+
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://img.freepik.com/free-photo/top-view-circular-food-frame_23-2148723455.jpg') no-repeat center/cover;
+            color: rgb(220, 24, 24);
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 25px;
+            font-family: cursive;
+        }
+
+        .hero p {
+            font-size: 15px;
+            font-family: cursive;
+            color: #436f96;
+            font-style: oblique;
+        }
+
+        .hero .btn {
+            background-color: #ba8e21;
+            color: #f3ecec;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+            font-family: monospace;
+        }
+
+        .hero .btn:hover {
+            background-color: #4822b0;
+        }
+
+        .menu {
+            padding: 40px;
+            background: linear-gradient(to right, #141a15, #30137e);
+        }
+
+        h2 {
+            color: #47769e;
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 50px;
+        }
+
+        .food-items {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .food {
+            border: 1px solid #0f0202;
+            padding: 10px;
+            border-radius: 10px;
+            font-family: "Playwrite IN", cursive;
+        }
+
+        p {
+            font-size: 19px;
+            color: #d7c0b3;
+        }
+
+        .food img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background-color: #1e0b0b;
+            padding: 10px;
+            font-family: "Sixtyfour Convergence", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Zomato</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Delicious Food, Delivered Fast</h1>
+        <p>Order your favorite meals from the comfort of your home</p>
+        <a href="" class="btn">Order Now</a>
+    </header>
+
+    <section class="menu">
+        <h2>Our Special Dishes</h2>
+        <div class="food-items">
+            <div class="food">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWp2HwQgomf-IVHU-zzpxN2C29Jxp2hPTIyA&s"
+                    alt="Burger">
+                <p>Burgir - 100 Rs.</p>
+            </div>
+            <div class="food">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtbBoESC-0jPlLGkoQB1eydQ_ZrZfmETtCWg&s"
+                    alt="Pizza">
+                <p>Pizza - 250 Rs.</p>
+            </div>
+            <div class="food">
+                <img src="https://media.istockphoto.com/id/155433174/photo/bolognese-pens.jpg?s=612x612&w=0&k=20&c=A_TBqOAzcOkKbeVv8qSDs0bukfAedhkA458JEFolo_M="
+                    alt="Pasta">
+                <p>Pasta - 150 Rs.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© Zomato | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
